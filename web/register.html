@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>注册页面</title>
+    <style>
+        /* CSS样式代码 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h3 {
+            color: #666;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到点餐系统！</h1>
+    <h3>请注册：</h3>
+    <form action="register.jsp" method="post">
+        <label>邮箱：</label>
+        <input type="text" name="email"><br>
+        <label>用户名:</label>
+        <input type="text" name="username"><br>
+        <label>密码:</label>
+        <input type="password" name="password"><br>
+        <input type="submit" value="注册">
+    </form>
+    <p>已有帐号？<a href="login.html">立即登录</a></p>
+</body>
+</html>
+
